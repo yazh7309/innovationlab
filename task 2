@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay's Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .about-section {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .about-section img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .movie-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .movie-table th, .movie-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .movie-table th {
+            background-color: #333;
+            color: white;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Vijay's Blog</h1>
+    </header>
+    <div class="container">
+        <div class="about-section">
+            <h2>About Vijay</h2>
+            <img src="/vijayblog/thalapathyvijay.jpg" alt="Vijay">
+            <p>Vijay is a passionate writer, thinker, and explorer. He loves to share his thoughts, experiences, and insights through this blog. With a deep interest in technology, personal development, and storytelling, Vijay aims to inspire and inform his readers.</p>
+            <p>He has years of experience in writing about various topics, including travel, lifestyle, and self-improvement. His goal is to create engaging and thought-provoking content that resonates with a wide audience.</p>
+            <p>Outside of blogging, Vijay enjoys reading books, exploring new places, and engaging in meaningful discussions. Follow his journey through this blog as he shares his knowledge, experiences, and perspectives.</p>
+            <p>For more information, visit the official website: <a href="https://www.actorvijay.com" target="_blank">www.actorvijay.com</a></p>
+        </div>
+        <div class="about-section">
+            <h2>Early Life & Career</h2>
+            
+            <p>Vijay was born and raised in a vibrant community that nurtured his curiosity and love for storytelling. From a young age, he exhibited a keen interest in literature and technology, which later influenced his writing style and career choices.</p>
+            <p>As he grew, Vijay pursued his passion for knowledge, gaining expertise in multiple domains, including writing, public speaking, and digital innovation. He started his career by writing for local magazines and gradually expanded into the online world, where he gained recognition for his insightful articles and thought-provoking blogs.</p>
+            <p>Today, Vijay continues to inspire his audience with his unique perspectives and in-depth analyses on various topics. His journey is a testament to the power of passion, dedication, and continuous learning.</p>
+        </div>
+        <div class="about-section">
+            <h2>Super Movies</h2>
+            <table class="movie-table">
+                <tr>
+                    <th>Movie Name</th>
+                    <th>Year</th>
+                    <th>Genre</th>
+                </tr>
+                <tr>
+                    <td>Master</td>
+                    <td>2021</td>
+                    <td>Action, Thriller</td>
+                </tr>
+                <tr>
+                    <td>Bigil</td>
+                    <td>2019</td>
+                    <td>Sports, Drama</td>
+                </tr>
+                <tr>
+                    <td>Mersal</td>
+                    <td>2017</td>
+                    <td>Action, Thriller</td>
+                </tr>
+                <tr>
+                    <td>Theri</td>
+                    <td>2016</td>
+                    <td>Action, Drama</td>
+                </tr>
+                <tr>
+                    <td>Kaththi</td>
+                    <td>2014</td>
+                    <td>Action, Drama</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Vijay's Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
